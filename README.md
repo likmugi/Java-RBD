@@ -14,6 +14,7 @@
 
 В классе ComplexExpression прописывались команды для вычисления сложного выражения, для реализации которого необходимо было использования условной конструкции if-else.
 <p align="center"><img src="https://sun9-12.userapi.com/s/v1/if2/oYfJ4OrEAMbBZch0wkNTYrMvVGU9KGN7khlDirBHq0Hd5_SGs35UNQnWrR6BsfheMQ23ktk1FDC6QhhMp8OXVgXT.jpg?size=308x84&quality=96&type=album"/> </p>
+
 #### Проект 1 - создание оконного приложения
 В пакетах «formP» и «formP2» находятся классы оконного приложения.
 
@@ -37,17 +38,20 @@
 <p align="center">
 	<img src="https://sun1-23.userapi.com/s/v1/if2/iR7QYfMz-mLJVGh3rCdjrTT82bDokLmru_rpZJflixWDFN8Bjxfwah_bzuEMa1MgyV5GcKQ6I2g2Um0H78GkSYrb.jpg?size=623x82&quality=96&type=album"/>
 </p>
-#### проект 2 - доп. создание оконного приложения
+
+#### Проект 2 - доп. создание оконного приложения
 Была предпринята попытка продолжить работать с оконными приложениями. В результате была объединена работа с классами Employee и Book и представлена в одной форме «JFrameTest».
 
 <p align="center">
 	<img src="https://sun9-42.userapi.com/s/v1/if2/tm43JdX-MyzFbWtVLt1PH3B0b7x3BnzJX2DdM-aVaORc63WFBwdHzplioP-2YFpLAU6Ix91EPE6dLvf9EaV8-OqN.jpg?size=589x160&quality=96&type=album"/>
 </p>
+
 ### ООП. Наследование классов. Абстрактные методы и интерфейсы.
 В ходе работы необходимо было изучить принципы создания приложения с наследованием классов в Java и научится создавать абстрактные классы и интерфейсы.
 
 При реализации работа была разделена на три проекта «Lab1_Shamugiya_ch.1», «Lab1_Shamugiya_ch.1_Book», «Lab1_Shamugiya_ch.2».
 Проекты, в свою очередь, имеют содержат по два пакета: «com.example» для тестового класса и  «com.example.domain», который содержит в себе наши собственные классы, с объектами которых мы работаем в тестовом классе.
+
 #### Проект по теме "наследование и полиморфизм"
 В проекте «Lab2_Shamugiya_ch.1» создается консольное приложение в соответствии со следующей иерархией классов:
 <p align="center">
