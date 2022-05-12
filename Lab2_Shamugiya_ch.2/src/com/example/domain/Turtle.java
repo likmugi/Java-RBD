@@ -1,0 +1,46 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.example.domain;
+
+/**
+ *
+ * @author scham
+ */
+
+/**
+ * Задаем класс Turtle - наследует от Animal и имплементирует Pet
+ */
+public class Turtle extends Animal implements Pet {
+    // Определяем поле
+    private String name;
+    // Определяем конструктор класса
+    public Turtle() {
+        // Вызываем конструктор супер класса, чтобы передать параметры вверх по иерархии
+        super(4);
+    }
+
+    //Переопределяем абстрактные методы
+    @Override
+    public void eat() {
+        System.out.println("Черепашки едять мотыля");
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void play() {
+        System.out.println("Черепашки играют с водорослями");
+    }
+    
+}
